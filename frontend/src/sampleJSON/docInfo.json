@@ -1,0 +1,28 @@
+{
+  "docInfo": [
+    {
+      "docId": 1,
+      "bookTitle": "How The Rooster Found His Sound",
+      "originalLanguage": "English",
+      "translationsRequiredIn": ["Tetun", "English", "Spanish"],
+      "approxLength": 46,
+      "docUrl": "/documents/1.pdf"
+    },
+    {
+      "docId": 2,
+      "bookTitle": "Busy Little Ants",
+      "originalLanguage": "English",
+      "translationsRequiredIn": ["Spanish", "Chinese"],
+      "approxLength": 32,
+      "docUrl": "/documents/2.pdf"
+    },
+    {
+      "docId": 3,
+      "bookTitle": "How The Rooster Found His Sound",
+      "originalLanguage": "English",
+      "translationsRequiredIn": ["Chinese", "Hindi"],
+      "approxLength": 36,
+      "docUrl": "/documents/3.pdf"
+    }
+  ]
+}

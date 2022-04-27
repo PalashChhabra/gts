@@ -1,0 +1,290 @@
+.icon-shape-custom {
+  display: inline-flex;
+  height: 9rem;
+  width: 9rem;
+}
+.brand-logo-size {
+  height: 9rem;
+  width: 9rem;
+}
+
+.section-lg-custom {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hr-custom {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.bottom-margin-custom {
+  padding-bottom: 2rem;
+}
+
+.profile-page .card-profile {
+  margin-top: -50px;
+}
+
+Table td {
+  vertical-align: middle !important;
+}
+
+table td span.badge {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.spinner {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  background-size: 100%;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+.notfounddiv .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfounddiv .notfound {
+  padding-left: 250px;
+  line-height: 1.1;
+}
+
+.notfound .notfound-404 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  background-image: url("../img/icons/emoji.png");
+  background-size: cover;
+}
+
+.notfound .notfound-404:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(2.4);
+  -ms-transform: scale(2.4);
+  transform: scale(2.4);
+  border-radius: 50%;
+  background-color: #f2f5f8;
+  z-index: -1;
+}
+
+.notfound h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #151723;
+  text-transform: uppercase;
+}
+
+.notfound h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #151723;
+}
+
+.notfound p {
+  font-family: "Nunito", sans-serif;
+  color: #999fa5;
+  font-weight: 400;
+}
+
+.notfound a {
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #388dbc;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 {
+    width: 110px;
+    height: 110px;
+  }
+  .notfound {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 110px;
+  }
+}
+
+.red-color {
+  color: crimson;
+}
+
+.margin-top-0 {
+  margin-top: 0rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.mt-2rem {
+  margin-top: 2rem;
+}
+.displayInline {
+  display: inline-block;
+}
+.size-3 {
+  font-size: 3rem;
+}
+.pd-rt {
+  padding-right: 20px;
+}
+
+span.badge:nth-child(2n) {
+  margin: 0px 5px;
+  background-color: #2dce89;
+}
+span.badge:nth-child(3n) {
+  margin: 0px 5px;
+  background-color: #fb6340;
+}
+span.badge:nth-child(5n) {
+  margin: 0px 5px;
+  background-color: #f5365c;
+}
+.disabledLink {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #adb5bd;
+  border-color: #adb5bd;
+}
+
+.custom-set {
+  padding-top: 0rem !important;
+}
+.custom-float {
+  float: right;
+}
+
+.custom-set > div {
+  padding-top: 0px !important;
+}
+
+.pad-top-0 {
+  padding-top: 0;
+}
+
+.pad-bottom-10 {
+  padding: 10px;
+}
+
+.react-pdf__Page > canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.react-pdf__Page > .react-pdf__Page__textContent {
+  z-index: -1000;
+}
+
+.cusPoint {
+  cursor: pointer;
+}
+
+.pad_20 {
+  padding-bottom: 20px;
+}
+
+.fontsize14 {
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.ag-header-cell-label .ag-header-cell-text {
+  /* Force the width corresponding at how much width
+    we need once the text is laid out vertically */
+  /* Since we are rotating a span */
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.ag-header-cell-label {
+  justify-content: center;
+}
+
+.document-editor {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.minHT {
+  min-height: 731px;
+}
+
+.floatRT {
+  float: right;
+}
+
+.width250 {
+  width: 250px !important;
+}
+
+.ptrCursor {
+  cursor: pointer;
+}
+
+.spacebtwn {
+  justify-content: space-between;
+}
+
+.pdtp20 {
+  padding-top: 20px;
+}
+
+main {
+  min-height: 80vh !important;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+}
+.section.section-shaped.minHt {
+  min-height: 80vh !important;
+}
+.loginScreen {
+  min-height: 55vh !important;
+}
+
+.pd_lt_10 {
+  padding-left: 20px;
+}
+
+.pd_15 {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.inlineDisplay {
+  display: inline !important;
+  vertical-align: middle !important;
+}
